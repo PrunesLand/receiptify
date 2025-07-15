@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "568735906481",
+    "project_id": "receiptify-c178a",
+    "storage_bucket": "receiptify-c178a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568735906481:android:4cbb8cd54f818ad0ae0090",
+        "android_client_info": {
+          "package_name": "com.example.receipt_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjiNzw9ARmTluHboS1-WY5znNBMWY48Lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
