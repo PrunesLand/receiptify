@@ -23,10 +23,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -66,4 +63,14 @@ class DefaultFirebaseOptions {
     projectId: 'receiptify-c178a',
     storageBucket: 'receiptify-c178a.firebasestorage.app',
   );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyCF4yxXIFgaHv23KoZpcOIs_ZcTRwx8r9o',
+    appId: '1:568735906481:ios:548b1744d2369e67ae0090',
+    messagingSenderId: '568735906481',
+    projectId: 'receiptify-c178a',
+    storageBucket: 'receiptify-c178a.firebasestorage.app',
+    iosBundleId: 'com.example.receiptApp',
+  );
+
 }
